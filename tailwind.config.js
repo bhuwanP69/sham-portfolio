@@ -10,6 +10,8 @@ export default {
         'body-color':'#ffd6d6',
         'button-color1':'#ffbd84',
         'button-color2':'#ff1f8e',
+        'button-color3':'#6A6A90',
+
 
 
       }

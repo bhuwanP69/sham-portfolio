@@ -14,17 +14,12 @@ export default function RootLayout() {
       setScrolled(false)
     }
   };
-  // useEffect(() =>{
-  //   window.addEventListener('scroll',handleScroll);
-  //   return () =>{
-  //     window.removeEventListener('scroll',handleScroll);
-  //   }
-  // },[])
+ 
   window.addEventListener('scroll', handleScroll);
   const logo = './src/images/logo.png'
   return (
     <div className=''>
-      <header className= {`root-layout  fixed w-full flex pl-20  bg-indigo-400 justify-between items-center h-24 pr-28   ${scrolled ?'bg-white':'bg-body-color'}`}>
+      <header className= {`root-layout  fixed w-full flex pl-20  bg-body-color justify-between items-center pr-28 transition-all duration-500   ${scrolled ?'bg-white h-20':'bg-body-color  h-24'}`}>
         <Link smooth to="first" spy={true} duration={500} className="cursor-pointer w-28">
         <img src={logo} alt="logo"  />
         </Link>
@@ -32,7 +27,7 @@ export default function RootLayout() {
           <Link  smooth to="about" spy={true} duration={500} className="cursor-pointer pt-3">About</Link>
           <Link  smooth to="services" spy={true} duration={500} className="cursor-pointer pt-3">Projects</Link>
           <Link  smooth to="contact" spy={true} duration={500} className="cursor-pointer pt-3">Contact</Link>
-          <Link classID=""><button className="bg-button-color2 text-white px-6 py-3  text-base font-semibold font-sans rounded-3xl">Download CV</button></Link>
+          <Link classID=""><button className=" bg-gradient-to-r from-button-color1  to-button-color2 text-white px-6 py-3  text-base font-semibold font-sans rounded-3xl">Download CV</button></Link>
         </nav>
       </header>
     
