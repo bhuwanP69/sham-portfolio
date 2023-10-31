@@ -23,5 +23,7 @@
  .left-to-right-bounce {
   animation: bounce 2s infinite;
 }
-
+.icons i:hover {
+   transform: translateY(-5px);
+}
 }
