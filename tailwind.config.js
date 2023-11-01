@@ -14,11 +14,16 @@ export default {
         'button-color1':'#ffbd84',
         'button-color2':'#ff1f8e',
         'button-color3':'#6A6A90',
+        'button-color4':'#e60072',
         'aboutText':'#6A6A90',
         'borderColor':'#d4f0ff',
         'underPurple':'#a33fbf',
         'underIndigo':'#6610f2',
         'underBlue':'#0dcaf0',
+        //projects
+        'projectBg1':'#fffbef',
+        'projectBg2':'#e2f3ff',
+
 
 
 

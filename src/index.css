@@ -25,5 +25,9 @@
 }
 .icons i:hover {
    transform: translateY(-5px);
+
+}
+.img:hover .firstProject{
+   display: block;
 }
 }

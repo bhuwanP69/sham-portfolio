@@ -2,7 +2,7 @@ import BackToTop from "../components/BackToTop";
 import About from "./About";
 import Contact from "./Contact";
 import First from "./First";
-import Services from "./Services";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
     <div className="main-home grid" id='home'>
         <First/>
         <About/>
-        <Services/>
+        <Projects/>
         <Contact/>
     </div>
     <BackToTop/>

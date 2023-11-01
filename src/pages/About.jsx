@@ -20,7 +20,7 @@ export default function About() {
 
         </div>
         <div className="right flex gap-10">
-          <div className="first overflow-hidden relative  group border rounded-lg border-borderColor h-[385px] w-[270px] pt-12 flex flex-col text-center items-center shadow-lg duration-500 transform transition-transform hover:-translate-y-2  ">
+          <div className="first group overflow-hidden relative  border rounded-lg border-borderColor h-[385px] w-[270px] pt-12 flex flex-col text-center items-center shadow-lg duration-500 transform transition-transform hover:-translate-y-2  ">
           <span className=" absolute left-0 right-0 bottom-0 h-1  underline bg-gradient-to-r from-underPurple  via-underIndigo to-underBlue scale-x-0 transform  transition-transform ease-in-out duration-1000 origin-left  group-hover:scale-x-100"></span>
             <img src={img1} alt="img 1" className="w-20" />
             <h4 className="text-2xl font-bold text-text-Black pt-5 tracking-wider">Design Toolkit</h4>
