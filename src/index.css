@@ -28,6 +28,16 @@
 
 }
 .img:hover .firstProject{
-   display: block;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.button1:hover .fa-arrow-right{
+   background-color: #ff3870;
+   color: white;
+}
+.button2:hover .fa-github{
+   color: rgb(67, 67, 67);
 }
 }
