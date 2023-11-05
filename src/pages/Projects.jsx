@@ -207,7 +207,7 @@ export default function Projects() {
 
     <div className="services py-20 bg-gradient-to-t from-projectBg1  to-projectBg2" id='projects'>
       <div className="top pb-10  text-center flex  flex-col justify-center items-center gap-10">
-        <h1 className='text-4xl font-bold text-text-Black'>Cool Stuff I've Built</h1>
+        <h2 className='text-4xl font-bold text-text-Black'>Cool Stuff I've Built</h2>
         <div className="buttons flex gap-10">
         <button className='text-white bg-button-color4 font-bold text-lg px-8 py-2 rounded-full'>Websites</button>
         <button className='text-aboutText  font-bold text-lg px-8 py-2 rounded-full'>Mobile Apps</button>

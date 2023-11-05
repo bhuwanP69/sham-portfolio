@@ -1,10 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* src/index.css */
 
 @layer components{
   body{
     overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+  }
+  h2,h5,h4,h3{
+   font-family: sans-serif !important;
+  }
+  span,p{
+   font-family:"Poppins", sans-serif !important ;
   }
   @keyframes bounce {
     0% {

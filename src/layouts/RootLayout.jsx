@@ -24,9 +24,22 @@ export default function RootLayout() {
         <img src={logo} alt="logo"  />
         </Link>
         <nav className=" flex justify-between font-semibold text-gray-800  w-[500px]">
-          <Link  smooth to="about" spy={true} duration={500} className="cursor-pointer pt-3 hover:opacity-80">About</Link>
-          <Link  smooth to="projects" spy={true} duration={500} className="cursor-pointer pt-3 hover:opacity-80">Projects</Link>
-          <Link  smooth to="contact" spy={true} duration={500} className="cursor-pointer pt-3 hover:opacity-80">Contact</Link>
+          
+          <Link  smooth to="about" spy={true} duration={500} className="cursor-pointer pt-3 hover:opacity-80 group relative ">About
+            {/* underline  */}
+            <span className=" absolute block left-0 right-0 bottom-0  h-[0.75px]  bg-aboutText scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
+          </Link>
+          
+          <Link  smooth to="projects" spy={true} duration={500} className="cursor-pointer pt-3 hover:opacity-80 relative group">Projects
+          {/* underline  */}
+          <span className=" absolute block left-0 right-0 bottom-0  h-[0.75px]  bg-aboutText scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
+           
+          </Link>
+          <Link  smooth to="contact" spy={true} duration={500} className="cursor-pointer pt-3 hover:opacity-80 relative group">Contact
+          {/* underline  */}
+          <span className=" absolute block left-0 right-0 bottom-0  h-[0.75px]  bg-aboutText scale-x-0 transform  transition-transform ease-in-out  origin-right duration-300  group-hover:scale-x-105 group-hover:origin-left "></span>
+           
+          </Link>
           <Link classID=""><button className=" bg-gradient-to-r from-button-color1  to-button-color2 text-white px-6 py-3  text-base  font-sans rounded-3xl">Download CV</button></Link>
         </nav>
       </header>
