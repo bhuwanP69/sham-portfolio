@@ -8,8 +8,10 @@ export  function ProjectsLists() {
   const project5 = './src/images/project5.png'
   const project6 = './src/images/project6.png'
   return (
+    <div className="projects">
+       <p className='text-aboutText px-52 text-lg'>These are some of the websites I have built for clients and myself. I have used a variety of technologies to build these websites including JavaScript, TypeScript, HTML and CSS. I have also used a variety of frameworks and libraries including React, Next JS, Bootstrap and Tailwind CSS.</p>
+
     <div className="projects grid grid-cols-2 gap-y-20 px-20 pt-8">
-      
       {/* project 1 */}
         <div className="project1 transition-all duration-500">
           <div className="img relative w-[510px]    ">
@@ -198,6 +200,7 @@ export  function ProjectsLists() {
         </div>
 
       </div>
+</div>
   )
 }
 
@@ -212,7 +215,7 @@ export default function Projects() {
         <button className='text-white bg-button-color4 font-bold text-lg px-8 py-2 rounded-full'>Websites</button>
         <button className='text-aboutText  font-bold text-lg px-8 py-2 rounded-full'>Mobile Apps</button>
         </div>
-        <p className='text-aboutText px-52 text-lg'>These are some of the websites I have built for clients and myself. I have used a variety of technologies to build these websites including JavaScript, TypeScript, HTML and CSS. I have also used a variety of frameworks and libraries including React, Next JS, Bootstrap and Tailwind CSS.</p>
+       
       </div>
       <ProjectsLists/>
     
