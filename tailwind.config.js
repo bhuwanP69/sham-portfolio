@@ -20,6 +20,7 @@ export default {
         'underPurple':'#a33fbf',
         'underIndigo':'#6610f2',
         'underBlue':'#0dcaf0',
+        'shadowColor':'#b1b0cf',
         //projects
         'projectBg1':'#fffbef',
         'projectBg2':'#e2f3ff',

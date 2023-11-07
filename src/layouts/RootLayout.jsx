@@ -31,7 +31,11 @@ export default function RootLayout() {
         <Link smooth to="first" spy={true} duration={500} className="cursor-pointer w-28">
         <img src={logo} alt="logo"  />
         </Link>
-        <nav className=" flex justify-between font-semibold text-gray-800  w-[500px]">
+        <button className="block lg:hidden">
+        <i className="fa-solid fa-bars   text-2xl cursor-pointer"></i>
+        </button>
+        <nav className=" lg:flex justify-between font-semibold text-gray-800  w-[500px] hidden ">
+        
           
           <Link  smooth to="about" spy={true} duration={500} className="cursor-pointer pt-3 hover:opacity-80 group relative ">About
             {/* underline  */}
@@ -49,7 +53,7 @@ export default function RootLayout() {
            
           </Link>
           <a 
-          ><button onClick={handleDownload} className=" relative bg-gradient-to-r from-button-color1  to-button-color2 text-white px-6 py-3  text-base  font-sans rounded-3xl overflow-hidden group">Download CV
+          ><button onClick={handleDownload} className=" relative bg-gradient-to-r from-button-color1  to-button-color2 text-white px-6 py-3  text-base  font-sans rounded-3xl overflow-hidden shadow-lg shadow-shadowColor group ">Download CV
 
           <span class="absolute -top-2 -right-2 transform rotate-45 rounded-full opacity-20 h-24 w-12 bg-white group-hover:w-24 transition-all duration-1000 overflow-hidden"></span>
 {/* 
