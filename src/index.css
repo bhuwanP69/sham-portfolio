@@ -7,9 +7,14 @@
 /* src/index.css */
 
 @layer components{
+   
+* {
+   box-sizing: border-box;
+ }
   body{
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
+    
   }
   h2,h5,h4,h3{
    font-family: sans-serif !important;
@@ -51,4 +56,5 @@
 .button2:hover .fa-github{
    color: rgb(67, 67, 67);
 }
+
 }
