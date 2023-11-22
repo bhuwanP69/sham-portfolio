@@ -2,8 +2,8 @@ import { Link } from "react-scroll";
 
 export default function First() {
     return (
-      <div className="first h-screen text-center md:text-start lg:text-center  pt-48 pl-10 sm:pl-40 md:pl-20 bg-body-color" id="first">
-       <h1 className="text-[95px] md:w-full w-96 font-extrabold font-sans text-transparent bg-clip-text bg-gradient-to-r from-text-color from-40% via-text-color via-50%   to-text-color2 to-1%">Hi, i'm Shamar</h1>
+      <div className="first h-screen text-center md:text-start lg:text-center pt-24 md:pt-48 pl-10 sm:pl-40 md:pl-20 bg-body-color" id="first">
+       <h1 className="text-[95px] md:w-full w-96 font-extrabold font-sans text-transparent bg-clip-text bg-gradient-to-r from-text-color from-40% via-text-color via-50%   to-text-color2 to-1%">Hi, i'm shamar</h1>
        <h5 className=" text-2xl md:text-3xl md:w-full w-96 font-medium text-text-Black pb-14">I build web and mobile apps.</h5>
        <div className="buttons flex gap-5 justify-start lg:justify-center">
         <Link to="projects" smooth>
