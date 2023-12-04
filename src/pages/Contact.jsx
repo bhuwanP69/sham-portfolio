@@ -29,6 +29,8 @@ export default function Contact() {
             <i class="fa-brands fa-linkedin hover:text-text-color pt-1 text-3xl text-aboutText hover:pb-1 cursor-pointer transition-all duration-500 "></i>
         </div>
           <p className='text-aboutText'>Copyright © 2021 - 2023 Shamar Morrison. All Rights Reserved.</p>
+          <p className='text-aboutText pt-3'>Reference from this website</p>
+          <a href="https://shamar.dev/#" target='_blank' className='text-aboutText hover:text-red-500 underline underline-offset-4'> https://shamar.dev/#</a>
       </div>
     </div>
   )
