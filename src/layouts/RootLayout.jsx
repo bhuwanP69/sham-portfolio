@@ -17,7 +17,7 @@ export default function RootLayout() {
 
   window.addEventListener("scroll", handleScroll);
   const logo =
-    "https://live.staticflickr.com/65535/53376127502_d37656a920_n.jpg";
+    "https://live.staticflickr.com/65535/53377096826_b61a2b2afe_n.jpg";
 
   const handleDownload = () => {
     const pdfUrl = "./src/images/Shamar_Morrison_Web_Developer_Resume.pdf";
